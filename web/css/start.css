@@ -1,0 +1,40 @@
+body{
+  margin:0;
+  font: normal 16px Arial, Helvetica, sand-serif;
+  color:#333;
+}
+
+#particles-js{
+  background:#2F4F4F;
+  height:100%;
+  /*background-image:url("http://www.wallpaperawesome.com/wallpapers-awesome/wallpapers-full-hd-1920-1080-widescreen-awesome/wallpaper-very-beautiful-mountain-reflection-1920-x-1080-full-hd.jpg");*/
+}
+.btn{
+    font-family:BadScript-Regular;
+    color: blueviolet;
+}
+.btn:hover{
+    font-family:IndieFlower;
+    color:blueviolet;
+    background: pink;
+   
+    
+}
+.img{
+  background:#fff;
+  opacity:0.5;
+  padding:2em;
+  border:#ccc 2px solid;
+  position:absolute;
+  margin-left: 250px;
+  margin-top: 10px;
+  
+/*  top:100px;
+  left:50px;*/
+}
+
+#login input[type="text"], #login input[type="password"]{
+  padding:7px;
+  margin-bottom:10px;
+  border:1px #ccc solid;
+}

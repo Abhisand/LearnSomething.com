@@ -1,0 +1,39 @@
+body{
+    margin:0;
+    font: normal 16px Arial, Helvetica, sand-serif;
+    color:#333;
+    background-image: url("img/bg (3).jpg");
+}
+#Account{
+    background:#fff;
+/*    opacity:.65;*/
+    padding:5em;
+    border:firebrick 2px inset;
+    position:absolute;
+/*    top:75px;*/
+    left: 100px;
+    width: 75%;
+    height:90%;
+    font-size: 15px;
+    background-image: url("bg");
+}
+.button:hover{
+    background-color: red;
+    color: black;
+}
+.button{
+
+    background-color: darkviolet;
+    padding: 10px 25px;
+    border: none;
+    color: white;
+
+}
+#Account input[type="text"], #Account input[type="password"]{
+    border: none;
+    outline: none;
+    padding: 20px ;
+    width: 100%;
+    height: 20px;
+    border-bottom: 2px solid cyan;
+}

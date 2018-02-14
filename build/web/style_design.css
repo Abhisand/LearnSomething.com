@@ -1,0 +1,58 @@
+body{
+    margin:0;
+    font: normal 16px Arial, Helvetica, sand-serif;
+/*    color:#333;*/
+   
+}
+
+#particles-js{
+    background:orangered;
+    height:100%;
+}
+
+#login{
+    background:#fff;
+    opacity:0.9;
+    padding:2em;
+    border:#ccc 2px solid;
+    position:absolute;
+    top:220px;
+    left: 600px;
+    width: 250px;
+    height: 170px;
+   
+}
+.button:hover{
+    background-color: yellow;
+    color: black;
+}
+
+.button{
+
+    background-color: darkviolet;
+    padding: 10px 25px;
+    border: none;
+    color: white;
+    text-decoration: none;
+
+}
+
+
+#login input[type="text"], #login input[type="password"]{
+    padding:10px;
+    margin-bottom:10px;
+    border:1px #ccc solid;
+    width: 100%;
+    outline: none;
+    border-radius: 15px;
+}
+#input:focus:before{
+   color: red; 
+}
+
+.fix-me{
+    position: fixed;
+
+    bottom: 200px;
+
+}
